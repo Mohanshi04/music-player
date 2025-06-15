@@ -117,23 +117,6 @@ http://127.0.0.1:8000/
 ```
 
 ---
-
-## Media Setup
-
-In `settings.py`:
-
-```python
-MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media'
-```
-
-In `urls.py` (main project):
-
-```python
-from django.conf import settings
-from django.conf.urls.static import static
-
-urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 ```
 
 ---
