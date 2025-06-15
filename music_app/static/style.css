@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(to bottom right, #e0eafc, #cfdef3);
+}
+
+.music-player {
+    max-width: 450px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.cover img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.songtitle h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #5e3dea;
+}
+
+center a i {
+    color: #7a4fe0;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.lecteur {
+    margin-top: 20px;
+    position: relative;
+}
+
+/* MediaElement.js fixes */
+.mejs__container {
+    background: #111;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.mejs__controls {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mejs__time-rail {
+    position: relative;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.mejs__time-total {
+    height: 6px;
+    background: #555;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.mejs__time-loaded,
+.mejs__time-current {
+    height: 6px;
+    top: 0;
+}
+
+.mejs__time-current {
+    background: #a85cf9 !important;
+}
+
+.mejs__time-loaded {
+    background: #888 !important;
+}
+
+.mejs__time-handle {
+    top: -5px;
+    width: 12px;
+    height: 12px;
+    margin-left: -6px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid #a85cf9;
+}
+
+.mejs__time {
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 0 10px;
+}
+
+/* Lyrics section
+.right-section {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lyrics-container {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.song-lyrics {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    white-space: pre-wrap;
+} */
